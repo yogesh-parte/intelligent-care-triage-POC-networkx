@@ -15,7 +15,10 @@ This repository contains a complete Proof-of-Concept (POC) for an intelligent ca
 - **New vs Returning Patient Support**: Handles context differently based on patient history
 
 ## See the Recorded Demo
- <video> Intelligent Care Triage from Patient Message: <video width="600" controls> <source src="https://user-images.githubusercontent.com/username/video.mp4" type="video/mp4> Your browser does not support the video tag. </video>
+ 
+  [![Watch the video](https://raw.githubusercontent.com/username/repository/branch/path/to/thumbnail.jpg)](https://github.com/yogesh-parte/intelligent-care-triage-POC-networkx/blob/main/artifacts/IntelligentCareTriageDemoVideo.m4v)
+  
+  
 
 ## 📁 Project Structure
 
