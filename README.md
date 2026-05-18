@@ -14,6 +14,9 @@ This repository contains a complete Proof-of-Concept (POC) for an intelligent ca
 - **RDF Turtle Export**: Standards-compliant semantic export
 - **New vs Returning Patient Support**: Handles context differently based on patient history
 
+## See the Recorded Demo
+ <video> Intelligent Care Triage from Patient Message: <video width="600" controls> <source src="https://user-images.githubusercontent.com/username/video.mp4" type="video/mp4> Your browser does not support the video tag. </video>
+
 ## 📁 Project Structure
 
 ```
@@ -120,9 +123,8 @@ Sample generated files from the demo scenario (`P-2026-0042`) are committed in t
 - `P-2026-0042_fhir_bundle.json` (FHIR R4)
 
 These demonstrate the full output of the system without needing to run it first.
-```
 
-## 📋 Sample Patient Scenario
+##Sample Patient Scenario
 
 **Patient ID**: `P-2026-0042` (New Patient)
 
@@ -136,7 +138,7 @@ These demonstrate the full output of the system without needing to run it first.
 - Reasoning subgraph visualization
 - EHR JSON + FHIR Bundle + RDF Turtle files
 
-## 📤 Generated Artifacts
+##  Generated Artifacts
 
 After running the script, check the `artifacts/` folder for:
 
@@ -146,15 +148,16 @@ After running the script, check the `artifacts/` folder for:
 | `P-XXXX_full_graph.png` | Complete knowledge graph |
 | `P-XXXX_ehr_explanation.json` | EHR/FHIR-ready structured output |
 | `P-XXXX_knowledge_graph.ttl` | RDF Turtle semantic export |
+| IntelligentCareTriageDemoVideo.m4v | Screen cast of streamlit front end|
 
-## 🏥 Clinical Value
+##  Clinical Value
 
 - **Safety**: Ontology grounding reduces hallucination risk
 - **Explainability**: Every recommendation has a traceable reasoning path
 - **Interoperability**: RDF + JSON outputs support modern EHR systems
 - **Scalability**: Graph structure enables future predictive analytics
 
-## 🔧 Customization
+##  Customization
 
 - Add real LLM integration (replace `simulate_ontogpt_extraction`)
 - Connect to Neo4j for persistent graph storage
