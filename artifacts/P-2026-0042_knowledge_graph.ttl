@@ -1,0 +1,15 @@
+@prefix ns1: <http://example.org/clinical/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ns1:P-2026-0042 a ns1:Patient ;
+    ns1:HAS_SYMPTOM ns1:Symptom_84229001 .
+
+ns1:Symptom_405729008 a ns1:Entity ;
+    ns1:SUGGESTS_DIFFERENTIAL ns1:Disease_MONDO_0005575 .
+
+ns1:Disease_MONDO_0005575 a ns1:Disease ;
+    rdfs:label "Colorectal cancer" .
+
+ns1:Symptom_84229001 a ns1:Symptom ;
+    rdfs:label "Fatigue" .
+

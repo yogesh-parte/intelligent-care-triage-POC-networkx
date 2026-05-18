@@ -1,0 +1,30 @@
+[
+  {
+    "patient_id": "P-2026-0042",
+    "type": "new_patient",
+    "message": "I’ve had blood in my stool for the past week, I’m feeling very tired, and I’ve lost about 8 pounds without trying.",
+    "expected_triage": "URGENT - Gastroenterology",
+    "clinical_notes": "Classic red flag symptoms for colorectal pathology"
+  },
+  {
+    "patient_id": "P-2025-0198",
+    "type": "returning_patient",
+    "message": "The blood in my stool has returned and I feel more tired than usual.",
+    "expected_triage": "URGENT - Gastroenterology (Review prior colonoscopy)",
+    "clinical_notes": "Returning patient with previous colonoscopy in 2024"
+  },
+  {
+    "patient_id": "P-2026-0077",
+    "type": "new_patient",
+    "message": "I've been having stomach pain and noticed some blood when I go to the bathroom.",
+    "expected_triage": "Routine to Urgent - Gastroenterology",
+    "clinical_notes": "Abdominal pain + rectal bleeding - needs evaluation"
+  },
+  {
+    "patient_id": "P-2026-0155",
+    "type": "new_patient",
+    "message": "Just feeling very tired and have lost weight recently. No other major issues.",
+    "expected_triage": "Routine - Primary Care / Gastroenterology if red flags present",
+    "clinical_notes": "Fatigue + weight loss - broad differential"
+  }
+]

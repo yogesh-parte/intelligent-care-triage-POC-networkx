@@ -1,0 +1,28 @@
+{
+  "resourceType": "ClinicalDecisionSupport",
+  "patientReference": "Patient/P-2026-0042",
+  "timestamp": "2026-05-16T02:18:47.974300",
+  "triage": {
+    "level": "URGENT",
+    "recommendedSpecialty": "Gastroenterology",
+    "recommendedAction": "Expedited colonoscopy evaluation",
+    "overallConfidence": 0.8
+  },
+  "reasoning": {
+    "patient_id": "P-2026-0042",
+    "summary": "Patient presents with: Fatigue.",
+    "reasoning_steps": [
+      {
+        "step": "Differential Diagnosis",
+        "detail": "Hematochezia linked to possible colorectal cancer via knowledge graph.",
+        "confidence": 0.75
+      }
+    ],
+    "confidence_score": 0.8,
+    "key_evidence": [],
+    "recommendation_justification": "High-confidence red flag pattern identified through graph traversal. Supports urgent Gastroenterology referral for colonoscopy evaluation."
+  },
+  "metadata": {
+    "engine": "Ontology-Driven KG Inference Engine"
+  }
+}
