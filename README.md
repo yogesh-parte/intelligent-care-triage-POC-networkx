@@ -16,7 +16,7 @@ This repository contains a complete Proof-of-Concept (POC) for an intelligent ca
 
 ## See the Recorded Demo
  
-  [![Watch the video](https://raw.githubusercontent.com/username/repository/branch/path/to/thumbnail.jpg)](https://github.com/yogesh-parte/intelligent-care-triage-POC-networkx/blob/main/artifacts/IntelligentCareTriageDemoVideo.m4v)
+  [![Watch the video](https://github.com/yogesh-parte/intelligent-care-triage-POC-networkx/blob/main/artifacts/IntelligentCareTriageDemoVideo.m4v)
   
   
 
